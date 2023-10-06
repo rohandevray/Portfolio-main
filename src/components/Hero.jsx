@@ -28,7 +28,7 @@ const Hero = (props) => {
           <p className={`${styles.heroSubText} mt-2 ${
                 light? "text-gray-700" : "text-white"
               }`}>
-            A web-developer and programmer.
+            A web <span className='text-[#915EFF]'>Dev</span>eloper and programmer.
           </p>
           
           <div className="flex flex-col mt-7 pt-8 pb-8">

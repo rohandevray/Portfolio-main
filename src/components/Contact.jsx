@@ -40,8 +40,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_ynnx7sg",
-        "template_78odl5j",
+        "service_g051qof",
+        "template_wpcfoxn",
         {
           from_name: form.name,
           to_name: "Rohan Kumar Pushpam",
@@ -49,7 +49,7 @@ const Contact = () => {
           to_email: "rohan12dx@gmail.com",
           message: form.message,
         },
-        "cRFszuvyo1cLwxUfQ"
+        "5tOell84dFtZhLbAz"
       )
       .then(
         () => {
